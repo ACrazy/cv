@@ -1,0 +1,1887 @@
+html,body{
+    zoom: .89;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: lightskyblue;
+    overflow: hidden;
+}
+.jindutiao {
+    position: absolute;
+    left: 48%;
+    bottom: 50%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.layer_top_ludi {
+    height: 500px;
+    width: 6000px;
+    position: absolute;
+    bottom: 333px;
+}
+.layer_mid_ludi {
+    height: 560px;
+    width: 6000px;
+    position: absolute;
+    bottom: 250px;
+    z-index: -1;
+}
+.cloud {
+    height: 100px;
+    width: 190px;
+    position: absolute;
+}
+.cloud1 {
+    left: 100px;
+    bottom: 265px;
+}
+.cloud2 {
+    left: 400px;
+    bottom: 544px;
+}
+.cloud3 {
+    left: 500px;
+    bottom: 376px;
+}
+.cloud4 {
+    left: 1000px;
+    bottom: 400px;
+}
+.cloud5 {
+    left: 1500px;
+    bottom: 300px;
+}
+.cloud6 {
+    left: 1900px;
+    bottom: 544px;
+}
+.cloud7 {
+    left: 2300px;
+    bottom: 265px;
+}
+.cloud8 {
+    left: 3000px;
+    bottom: 500px;
+}
+.cloud9 {
+    left: 3200px;
+    bottom: 288px;
+}
+.cloud10 {
+    left: 4000px;
+    bottom: 544px;
+}
+.cloud11 {
+    left: 4300px;
+    bottom: 355px;
+}
+.cloud12 {
+    left: 4500px;
+    bottom: 367px;
+}
+.cloud13 {
+    left: 4900px;
+    bottom: 544px;
+}
+.cloud14 {
+    left: 5300px;
+    bottom: 522px;
+}
+.cloud15 {
+    left: 5800px;
+    bottom: 300px;
+}
+.cloud16 {
+    left: 6000px;
+    bottom: 544px;
+}
+.cloud17 {
+    left: 6400px;
+    bottom: 265px;
+}
+.cloud18 {
+    left: 6900px;
+    bottom: 500px;
+}
+.cloud19 {
+    left: 7500px;
+    bottom: 288px;
+}
+.treeNor {
+    height: 250px;
+    width: 150px;
+    position: relative;
+    bottom: -311px;
+}
+.treeMin {
+    height: 164px;
+    width: 88px;
+    position: relative;
+    bottom: -311px;
+}
+.tree5 {
+    left: 100px;
+}
+.tree6 {
+    left: 250px;
+}
+.tree7  {
+    left: 200px;
+}
+.tree8  {
+    left: 631px;
+}
+.tree9  {
+    left: 600px;
+}
+.tree10  {
+    left: 260px;
+}
+.tree11  {
+    left: 230px;
+}
+.tree12  {
+    left: 200px;
+}
+.tree110  {
+    left: 660px;
+}
+.tree111  {
+    left: 500px;
+}
+.tree112  {
+    left: 1000px;
+}
+.tree13  {
+    left: 1900px;
+}
+.tree14  {
+    left: 1900px;
+}
+.mountain3 {
+    left: 2000px;
+}
+.mountain {
+    height: 250px;
+    width: 374px;
+    position: relative;
+    bottom: -311px;
+    opacity:0.3;
+}
+.stone {
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 2178px;
+}
+.go {
+    height: 139px;
+    width: 150px;
+    position: absolute;
+    bottom: -3px;
+    left: 326px;
+}
+.grassMin {
+    height: 30px;
+    width: 350px;
+    background: url("../imgs/grass.png") left repeat-x;
+}
+.groundMin {
+    height: 70px;
+    width: 350px;
+    background: url("../imgs/ground.png") left repeat-x;
+}
+.layer_bottom_ludi {
+    height: 1509px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1258px;
+    left: 0;
+}
+.grass {
+    height: 50px;
+    width: 6000px;
+    background: url("../imgs/grass.png") left repeat-x;
+}
+.ground {
+    height: 1455px;
+    width: 6000px;
+    background: url("../imgs/ground.png") left repeat;
+}
+.layer_top_sea {
+    height: 100px;
+    width: 6000px;
+    position: absolute;
+    left: 6000px;
+    bottom: -1195px;
+}
+.layer_mid_sea {
+    height: 1421px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1195px;
+    left: 6000px;
+    background: url("../imgs/seaground.png") left repeat;
+    z-index: -1;
+}
+.layer_bottom_sea {
+    height: 60px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1250px;
+    left: 6000px;
+    z-index: -1;
+}
+.groundSea {
+    height: 60px;
+    width: 6000px;
+    background: url("../imgs/ground.png") left repeat;
+}
+.topSea {
+    height: 300px;
+    width: 6000px;
+    position: absolute;
+    background: url("../imgs/sea-surface.png") left repeat-x;
+    bottom: 1340px;
+}
+.layer_top_hole {
+    height: 50px;
+    width: 6000px;
+    position: absolute;
+    left: 12000px;
+    bottom: -430px;
+    background: url("../imgs/floor2.png");
+}
+.layer_mid_hole {
+    height: 1992px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1195px;
+    left: 12000px;
+    background: url("../imgs/steel.png") left repeat;
+    z-index: -1;
+}
+.layer_bottom_hole {
+    height: 60px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1250px;
+    left: 12000px;
+}
+.layer_top_lift {
+    height: 470px;
+    width: 6400px;
+    position: absolute;
+    left: 18805px;
+    bottom: 409px;
+    background: lightskyblue;
+}
+.layer_mid_lift {
+    height: 1992px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1195px;
+    left: 18000px;
+    background: url("../imgs/steel.png") left repeat;
+    z-index: -2;
+}
+.layer_bottom_lift {
+    height: 60px;
+    width: 6000px;
+    position: absolute;
+    bottom: -1251px;
+    left: 18000px;
+}
+.Coral {
+    height: 150px;
+    width: 100px;
+    position: relative;
+    bottom: -1281px;
+    z-index: 1;
+}
+.Coral1 {
+    left: -7px;
+}
+.Coral2 {
+    left: 0px;
+}
+.Coral3  {
+    left: 0px;
+}
+.Coral4  {
+    left: 0px;
+}
+.Coral5  {
+    left: 552px;
+}
+.Coral6  {
+    left: 552px;
+}
+.Coral7  {
+    left: 552px;
+}
+.Coral8  {
+    left: 552px;
+}
+.Coral9  {
+    left: 552px;
+}
+.Coral10  {
+    left: 552px;
+}
+.Coral11  {
+    left: 552px;
+}
+.Coral12  {
+    left: 1252px;
+}
+.Coral13  {
+    left: 1252px;
+}
+.Coral14  {
+    left: 1252px;
+}
+.Coral15  {
+    left: 1752px;
+}
+.Coral16  {
+    left: 2052px;
+}
+.Coral17  {
+    left: 2052px;
+}
+.Coral18  {
+    left: 3052px;
+}
+.Coral19  {
+    left: 3052px;
+}
+.Coral20  {
+    left: 3052px;
+}
+.Coral21  {
+    left: 3352px;
+}
+.Coral22  {
+    left: 3352px;
+}
+.leftFloot {
+    height: 400px;
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    bottom: 396px;
+    background: url("../imgs/floor1.png");
+}
+.leftFDoor {
+    height: 400px;
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    bottom: 0;
+    background: url("../imgs/floor1.png");
+    transform: translateY(0);
+}
+.doorButton1 {
+    height: 88px;
+    width: 88px;
+    position: absolute;
+    bottom: 353px;
+    left: -21px;
+    background: url("../imgs/door.png");
+    z-index: 3;
+    transform:rotate(112deg);
+    -ms-transform:rotate(112deg); /* Internet Explorer */
+    -moz-transform:rotate(112deg); /* Firefox */
+    -webkit-transform:rotate(112deg); /* Safari 和 Chrome */
+    -o-transform:rotate(112deg); /* Opera */
+}
+.rightFloot {
+    height: 400px;
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    bottom: 396px;
+    right: 0;
+    background: url("../imgs/floor1.png");
+}
+.rightDoor {
+    height: 400px;
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    bottom: 0;
+    right: 0;
+    background: url("../imgs/floor1.png");
+    transform: translateY(0);
+}
+.doorButton2 {
+    height: 88px;
+    width: 88px;
+    position: absolute;
+    bottom: 353px;
+    right: -21px;
+    background: url("../imgs/door.png");
+    z-index: 5;
+    transform:rotate(112deg);
+    -ms-transform:rotate(112deg); /* Internet Explorer */
+    -moz-transform:rotate(112deg); /* Firefox */
+    -webkit-transform:rotate(112deg); /* Safari 和 Chrome */
+    -o-transform:rotate(112deg); /* Opera */
+}
+.picture {
+    height: 492px;
+    width: 600px;
+    position: absolute;
+    bottom: 135px;
+    border: 1px solid black;
+    perspective:5000px;
+}
+.stage {
+    position:absolute;
+    height: 492px;
+    width: 600px;
+    transform-style:preserve-3d;
+    transition: all 0.8s;
+}
+.image1{
+    background: url("../imgs/photo.jpg");
+    height: 492px;
+    width: 600px;
+    position:absolute;
+    transform:translateZ(246px) ;
+    transition: all 0.8s;
+}
+.image2{
+    background: url("../imgs/photo.jpg");
+    height: 492px;
+    width: 600px;
+    position:absolute;
+    transition: all 0.8s;
+    transform: rotateX(-90deg) translateZ(246px);
+}
+.stageChange {
+    transform: rotateX(90deg);
+}
+.pic1 {
+    left: 800px;
+}
+.pic2 {
+    left: 2000px;
+}
+.pic3 {
+    left: 3200px;
+}
+.pic4 {
+    left: 4400px;
+}
+.leftWall {
+    height: 1388px;
+    width: 802px;
+    position: absolute;
+    bottom: 402px;
+    background: url("../imgs/birckwall.png");
+}
+.rightWall {
+    height: 1628px;
+    width: 6000px;
+    position: absolute;
+    bottom: 0;
+    left: 1207px;
+    background: url("../imgs/birckwall.png");
+}
+.lift {
+    height: 62px;
+    width: 374px;
+    position: absolute;
+    bottom: 4px;
+    left: 817px;
+    background: url("../imgs/CageRest.png") ;
+    z-index: 1;
+    transform: translateY(0);
+}
+.diaoche1 {
+    height: 186px;
+    width: 206px;
+    position: absolute;
+    left: -214px;
+    bottom: 162px;
+}
+.diaoche2 {
+    height: 58px;
+    width: 336px;
+    position: absolute;
+    left: -119px;
+    bottom: 307px;
+}
+.diaoxian {
+    height: 1849px;
+    width: 30px;
+    position: absolute;
+    left: 180px;
+    bottom: -1540px;
+}
+.rain1 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.rain2 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 336px;
+    bottom: 0;
+}
+.rain3 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 672px;
+    bottom: 0;
+}
+.rain4 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 1008px;
+    bottom: 0;
+}
+.rain5 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 1344px;
+    bottom: 0;
+}
+.rain6 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 1680px;
+    bottom: 0;
+}
+.rain7 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 2016px;
+    bottom: 0;
+}
+.rain8 {
+    height: 758px;
+    width: 336px;
+    position: absolute;
+    left: 2352px;
+    bottom: 0;
+}
+.house {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 3165px;
+    bottom: 0;
+}
+.taoshu {
+    height: 620px;
+    width: 620px;
+    position: absolute;
+    left: 3352px;
+    bottom: -58px;
+}
+.cao1 {
+    height: 88px;
+    width: 70px;
+    position: absolute;
+    left: 3776px;
+    bottom: -4px;
+}
+.cao2 {
+    height: 88px;
+    width: 70px;
+    position: absolute;
+    left: 3823px;
+    bottom: -4px;
+}
+.fengzheng {
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 1043px;
+}
+.fengzheng1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    transform: rotate(0deg);
+}
+.fengzheng2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 350px;
+    transform: rotate(0deg);
+}
+.bang1 {
+    height: 171px;
+    width: 2px;
+    position: absolute;
+    bottom: -100px;
+    left: 201px;
+}
+.bang2 {
+    height: 171px;
+    width: 2px;
+    position: absolute;
+    bottom: -100px;
+    left: 401px;
+}
+.fengzheng3 {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: -170px;
+    left: 197px;
+    transform: rotate(0deg);
+}
+.fengzheng4 {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: -170px;
+    left: 355px;
+    transform: rotate(0deg);
+}
+.bang3 {
+    height: 470px;
+    width: 2px;
+    position: absolute;
+    bottom: -620px;
+    left: 229px;
+}
+.bang4 {
+    height: 470px;
+    width: 2px;
+    position: absolute;
+    bottom: -620px;
+    left: 389px;
+}
+.fengzheng5 {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: -170px;
+    left: 546px;
+    transform: rotate(0deg);
+}
+.fengzheng6 {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: -170px;
+    left: 783px;
+    transform: rotate(0deg);
+}
+.bang5 {
+    height: 470px;
+    width: 2px;
+    position: absolute;
+    bottom: -620px;
+    left: 580px;
+}
+.bang6 {
+    height: 470px;
+    width: 2px;
+    position: absolute;
+    bottom: -620px;
+    left: 817px;
+}
+.kk1, .kk2, .kk3, .kk4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.job {
+    height: 500px;
+    width: 950px;
+    position: absolute;
+    bottom: 0;
+    left: 3043px;
+}
+.jobtitle {
+    position: absolute;
+    bottom: 443px;
+    left: 115px;
+    list-style:none;margin:0;
+}
+.jobtitle li {
+    display: inline;
+    margin-left: 100px;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:24px;
+    vertical-align:middle;
+    font-weight: 900;
+}
+.jobmenu {
+    height: 400px;
+    width: 650px;
+    position: absolute;
+    bottom: 0;
+    left: 43px;
+    list-style:none;margin:0;
+}
+.jobmenu li{
+    line-height: 100px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: Cambria;
+    font-size: 20px;
+}
+.school {
+    height: 500px;
+    width: 950px;
+    position: absolute;
+    bottom: 0px;
+    left: 4242px;
+}
+.schoolimg {
+    height: 380px;
+    width: 583px;
+    position: absolute;
+    bottom: -96px;
+    left: 42px;
+}
+.schoolname {
+    position: absolute;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:50px;
+    vertical-align:middle;
+    font-weight: 900;
+}
+.schoolname1 {
+    left: 10px;
+    bottom: 197px;
+    transform: translateY(0px);
+}
+.schoolname2 {
+    left: 100px;
+    bottom: 271px;
+    transform: translateY(0px);
+}
+.schoolname3 {
+    left: 190px;
+    bottom: 308px;
+    transform: translateY(0px);
+}
+.schoolname4 {
+    left: 280px;
+    bottom: 340px;
+    transform: translateY(0px);
+}
+.schoolname5 {
+    left: 370px;
+    bottom: 334px;
+    transform: translateY(0px);
+}
+.schoolname6 {
+    left: 460px;
+    bottom: 321px;
+    transform: translateY(0px);
+}
+.schoolname7 {
+    left: 550px;
+    bottom: 360px;
+    transform: translateY(0px);
+}
+.schoolname8 {
+    left: 640px;
+    bottom: 408px;
+    transform: translateY(0px);
+}
+.schooltype {
+    position: absolute;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:40px;
+    vertical-align:middle;
+    font-weight: 900;
+}
+.schooltype1 {
+    left: -128px;
+    bottom: 146px;
+}
+.schooltype2 {
+    left: -128px;
+    bottom: 81px;
+}
+.schooltype3 {
+    left: -128px;
+    bottom: 16px;
+}
+.schooltype4 {
+    left: -128px;
+    bottom: -49px;
+}
+.hobby {
+    height: 400px;
+    width: 950px;
+    position: absolute;
+    bottom: -17px;
+    left: 4965px;
+    transform: rotate(0deg);
+}
+.hobbytitle {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:34px;
+    vertical-align:middle;
+    font-weight: 900;
+    position: absolute;
+    left: 433px;
+    bottom: 443px;
+    letter-spacing: 55px;
+}
+.guitar {
+    position: absolute;
+    height: 296px;
+    width: 300px;
+    left: 360px;
+    bottom: -86px;
+}
+.music1 {
+    position: absolute;
+    height: 69px;
+    width: 61px;
+    left: 373px;
+    bottom: -20px;
+}
+.music2 {
+    position: absolute;
+    height: 45px;
+    width: 52px;
+    left: 362px;
+    bottom: 168px;
+}
+.music3 {
+    position: absolute;
+    height: 51px;
+    width: 30px;
+    left: 259px;
+    bottom: 14px;
+}
+.music4 {
+    position: absolute;
+    height: 48px;
+    width: 30px;
+    left: 321px;
+    bottom: 306px;
+}
+.music5 {
+    position: absolute;
+    height: 58px;
+    width: 30px;
+    left: 696px;
+    bottom: 29px;
+}
+.music6 {
+    position: absolute;
+    height: 60px;
+    width: 30px;
+    left: 812px;
+    bottom: 159px;
+}
+.music7 {
+    position: absolute;
+    height: 63px;
+    width: 30px;
+    left: 656px;
+    bottom: 186px;
+}
+.music8 {
+    position: absolute;
+    height: 44px;
+    width: 57px;
+    left: 560px;
+    bottom: 269px;
+}
+.music9 {
+    position: absolute;
+    height: 60px;
+    width: 30px;
+    left: 458px;
+    bottom: 380px;
+}
+.music10 {
+    position: absolute;
+    height: 83px;
+    width: 30px;
+    left: 188px;
+    bottom: 117px;
+}
+.music11 {
+    position: absolute;
+    height: 81px;
+    width: 30px;
+    left: 760px;
+    bottom: 286px;
+}
+.bird {
+    height: 75px;
+    width: 83px;
+    position: absolute;
+    bottom: 425px;
+    left: 7090px;
+    background: url("../imgs/bird.png") 0 0 no-repeat;
+}
+.fly {
+    /* 填入动画样式规则 */
+    /*规定 @keyframes 动画的名称。*/
+    -webkit-animation-name: birdfly;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 550ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: infinite;
+    /*动画切换的方式是一帧一帧的改变*/
+    -webkit-animation-timing-function: steps(1, start);
+    -moz-animation-name: birdfly;
+    -moz-animation-duration: 550ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: steps(1, start)
+}
+@-webkit-keyframes birdfly {
+    0% {
+        background-position: 0 0;
+    }
+    33% {
+        background-position: -93px 0;
+    }
+    66% {
+        background-position: -184px 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+@-moz-keyframes birdfly {
+    0% {
+        background-position: 0 0;
+    }
+    33% {
+        background-position: -93px 0;
+    }
+    66% {
+        background-position: -184px 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+.holetitle {
+    position: absolute;
+    left: 285px;
+    bottom: -643px;
+    height: 584px;
+    width: 228px;
+}
+.boy {
+    display: none;
+    background: url("../imgs/boy1.png") 0 0 no-repeat;
+    height: 184px;
+    width: 151px;
+    position: absolute;
+    bottom: 247px;
+    left: 800px;
+    z-index: 99;
+    transform: translate3d(0, 0, 0);
+}
+.slowWalk {
+    /* 填入动画样式规则 */
+    /*规定 @keyframes 动画的名称。*/
+    -webkit-animation-name: person-slow;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 200ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: infinite;
+    /*动画切换的方式是一帧一帧的改变*/
+    -webkit-animation-timing-function: steps(1, start);
+    -moz-animation-name: person-slow;
+    -moz-animation-duration: 200ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: steps(1, start)
+}
+@-webkit-keyframes person-slow {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 0 -184px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-moz-keyframes person-slow {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 0 -184px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.raremiss1 {
+    /* 填入动画样式规则 */
+    /*规定 @keyframes 动画的名称。*/
+    -webkit-animation-name: miss-rare1;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 1150ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: miss-rare1;
+    -moz-animation-duration: 1150ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes miss-rare1 {
+    0% {
+        bottom: 2388px;
+    }
+    100% {
+        bottom: 1340px;
+    }
+}
+
+@-moz-keyframes miss-rare1 {
+    0% {
+        bottom: 2388px;
+    }
+    100% {
+        bottom: 1340px;
+    }
+}
+
+.rareappeace1 {
+    /* 填入动画样式规则 */
+    /*规定 @keyframes 动画的名称。*/
+    -webkit-animation-name: appeace-rare1;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 1100ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: appeace-rare1;
+    -moz-animation-duration: 1100ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes appeace-rare1 {
+    0% {
+        bottom: 1240px;
+    }
+    100% {
+        bottom: 2880px;
+    }
+}
+
+@-moz-keyframes appeace-rare1 {
+    0% {
+        bottom: 1240px;
+    }
+    100% {
+        bottom: 2880px;
+    }
+}
+.raremiss2 {
+    /* 填入动画样式规则 */
+    /*规定 @keyframes 动画的名称。*/
+    -webkit-animation-name: miss-rare2;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 1150ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: miss-rare2;
+    -moz-animation-duration: 1150ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes miss-rare2 {
+    0% {
+        bottom: 2880px;
+    }
+    100% {
+        bottom: 1328px;
+    }
+}
+
+@-moz-keyframes miss-rare2 {
+    0% {
+        bottom: 2880px;
+    }
+    100% {
+        bottom: 1328px;
+    }
+}
+
+.rareappeace2 {
+    /* 填入动画样式规则 */
+    /*规定 @keyframes 动画的名称。*/
+    -webkit-animation-name: appeace-rare2;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 1100ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: appeace-rare2;
+    -moz-animation-duration: 1100ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes appeace-rare2 {
+    0% {
+        bottom: 1328px;
+    }
+    100% {
+        bottom: 2880px;
+    }
+}
+
+@-moz-keyframes appeace-rare2 {
+    0% {
+        bottom: 1328px;
+    }
+    100% {
+        bottom: 2880px;
+    }
+}
+.lan1 {
+    height: 692px;
+    width: 819px;
+    position: absolute;
+    bottom: 135px;
+    left: 1194px;
+}
+.fish001 {
+    position: absolute;
+    width: 125px;
+    height: 93px;
+    left: -1896px;
+    bottom: 419px;
+}
+.fish002 {
+    position: absolute;
+    width: 125px;
+    height: 93px;
+    left: -1896px;
+    bottom: 320px;
+}
+.fish003 {
+    position: absolute;
+    width: 125px;
+    height: 93px;
+    left: -1896px;
+    bottom: 218px;
+}
+.fish004 {
+    position: absolute;
+    width: 125px;
+    height: 93px;
+    left: -1896px;
+    bottom: 118px;
+}
+.lan1menu {
+    position: absolute;
+    bottom: 114px;
+    left: -3183px;
+    list-style: none;
+    margin: 0;
+}
+.lan1menu li {
+    line-height: 100px;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:30px;
+    vertical-align:middle;
+    font-weight: 900;
+}
+.lan1title {
+    height: 400px;
+    width: 650px;
+    position: absolute;
+    bottom: 212px;
+    left: -2958px;
+    list-style: none;
+    margin: 0;
+}
+.lan1title li{
+    display: inline;
+    margin-left: 100px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: Cambria;
+    font-size: 26px;
+}
+
+.lan2 {
+    height: 692px;
+    width: 819px;
+    position: absolute;
+    bottom: 135px;
+    left: 2800px;
+}
+
+.lan3 {
+    height: 692px;
+    width: 819px;
+    position: absolute;
+    bottom: 135px;
+    left: 4365px;
+}
+.guide1 {
+    height: 141px;
+    width: 133px;
+    position: absolute;
+    bottom: 217px;
+    left: -195px;
+    transform: rotate(-15deg);
+}
+.guide2 {
+    height: 141px;
+    width: 131px;
+    position: absolute;
+    bottom: 217px;
+    left: -123px;
+    transform: rotate(15deg);
+}
+.guide01 {
+    height: 4000px;
+    width: 2px;
+    position: absolute;
+    bottom: 394px;
+    left: -121px;
+}
+.guide02 {
+    height: 4000px;
+    width: 2px;
+    position: absolute;
+    bottom: 394px;
+    left: -76px;
+}
+.guide3 {
+    height: 124px;
+    width: 145px;
+    position: absolute;
+    bottom: 340px;
+    left: -168px;
+    transform: rotate(-130deg);
+}
+.alltopSea {
+    height: 300px;
+    width: 6000px;
+    position: absolute;
+    bottom: 2388px;
+    left: -2px;
+    transform: translate3d(0, 0, 0);
+}
+.fishRun_jingtong {
+    -webkit-animation-name: shuxi;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 500ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -webkit-animation-fill-mode: forwards;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-name: shuxi;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes shuxi {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2896px;
+    }
+}
+@-moz-keyframes shuxi {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2896px;
+    }
+}
+.fishRun_shanchang {
+    -webkit-animation-name: zhangwo;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 500ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -webkit-animation-fill-mode: forwards;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-name: zhangwo;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes zhangwo {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2739px;
+    }
+}
+@-moz-keyframes zhangwo {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2739px;
+    }
+}
+.fishRun_zhangwo {
+    -webkit-animation-name: shanchang;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 500ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -webkit-animation-fill-mode: forwards;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-name: shanchang;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes shanchang {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2582px;
+    }
+}
+@-moz-keyframes shanchang {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2582px;
+    }
+}
+.fishRun_shuxi {
+    -webkit-animation-name: jingtong;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 500ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-fill-mode: forwards;
+    /*设置为动画后的状态*/
+    -moz-animation-name: jingtong;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes jingtong {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2425px;
+    }
+}
+@-moz-keyframes jingtong {
+    0% {
+        left: -1896px;
+    }
+    100% {
+        left: -2425px;
+    }
+}
+.bground {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+.kiteRun {
+    -webkit-animation-name: kite;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 1500ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: kite;
+    -moz-animation-duration: 1500ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes kite {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@-moz-keyframes kite {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.schoolRun {
+    -webkit-animation-name: schoolrun;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 800ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: infinite;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: schoolrun;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: infinite;
+}
+@-webkit-keyframes schoolrun {
+    0% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes schoolrun {
+    0% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.hobbyRun {
+    -webkit-animation-name: hobby-run;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 1000ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: hobby-run;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes hobby-run {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(4deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    75% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes hobby-run {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(4deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    75% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.kiteRun1 {
+    -webkit-animation-name: kite1;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 400ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: kite1;
+    -moz-animation-duration: 400ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes kite1 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 536px;
+    }
+    50% {
+        bottom: 446px;
+    }
+    75% {
+        bottom: 495px;
+    }
+    100% {
+        bottom: 488px;
+    }
+}
+
+@-moz-keyframes kite1 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 536px;
+    }
+    50% {
+        bottom: 446px;
+    }
+    75% {
+        bottom: 495px;
+    }
+    100% {
+        bottom: 488px;
+    }
+}
+.kiteRun2 {
+    -webkit-animation-name: kite2;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 400ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: kite2;
+    -moz-animation-duration: 400ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes kite2 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 438px;
+    }
+    50% {
+        bottom: 348px;
+    }
+    75% {
+        bottom: 397px;
+    }
+    100% {
+        bottom: 390px;
+    }
+}
+
+@-moz-keyframes kite2 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 438px;
+    }
+    50% {
+        bottom: 348px;
+    }
+    75% {
+        bottom: 397px;
+    }
+    100% {
+        bottom: 390px;
+    }
+}
+.kiteRun3 {
+    -webkit-animation-name: kite3;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 400ms;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-name: kite3;
+    -moz-animation-duration: 400ms;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes kite3 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 340px;
+    }
+    50% {
+        bottom: 250px;
+    }
+    75% {
+        bottom: 299px;
+    }
+    100% {
+        bottom: 282px;
+    }
+}
+
+@-moz-keyframes kite3 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 340px;
+    }
+    50% {
+        bottom: 250px;
+    }
+    75% {
+        bottom: 299px;
+    }
+    100% {
+        bottom: 282px;
+    }
+}
+.jianli {
+    position: absolute;
+    height: 853px;
+    width: 1000px;
+    left: 3564px;
+    bottom: -309px;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,.16);
+    background:  #eee;
+    overflow: auto;
+    display: none;
+}
+.mask {
+    position: absolute;
+    height: 5500px;
+    width: 7000px;
+    left: 3000px;
+    bottom: -1081px;
+    background: rgba(0,0,0,.6);
+    display: none;
+}
+.plane {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 5006px;
+    bottom: 296px;
+    transform: rotate(0deg);
+}
+.flyplane {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.arrow {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 53px;
+    bottom: 142px;
+    opacity: 0;
+}
+.checkjianli {
+    position: absolute;
+    height: 111px;
+    width: 700px;
+    left: 83px;
+    bottom: 263px;
+    opacity: 0;
+}
+.github {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 398px;
+    bottom: 284px;
+    opacity: 0;
+}
+.jianshu {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 385px;
+    bottom: 388px;
+    opacity: 0;
+}
+.conchange {
+    opacity: 1;
+    transform: rotate(-6deg);
+}
+.otherchange {
+    opacity: 1;
+}
+.planeRun {
+    -webkit-animation-name: plane-run;
+    /*规定动画完成一个周期所花费的秒或毫秒。默认是 0*/
+    -webkit-animation-duration: 3s;
+    /*规定动画被播放的次数。默认是 1。 infinite(循环播放)*/
+    -webkit-animation-iteration-count: 1;
+    /*动画切换的方式是一帧一帧的改变*/
+    -webkit-animation-fill-mode: forwards;
+    /*动画切换的方式是一帧一帧的改变*/
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-name: plane-run;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes plane-run {
+    0% {
+        left: 5006px;
+        bottom: 296px;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 4256px;
+        bottom: -73px;
+        transform: rotate(6deg);
+    }
+}
+
+@-moz-keyframes plane-run {
+    0% {
+        left: 5006px;
+        bottom: 296px;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 4256px;
+        bottom: -73px;
+        transform: rotate(6deg);
+    }
+}
+.gogo {
+    position: absolute;
+    left: 353px;
+    bottom: 48px;
+    height: 100px;
+    width: 700px;
+}
+.tip {
+    position: absolute;
+    left: 522px;
+    bottom: 268px;
+    height: 110px;
+    width: 1365px;
+}
+.app {
+    display: block;
+}
+.image1>h3 {
+    position: absolute;
+    bottom: 304px;
+    font-size: 45px;
+    width: 500px;
+    margin-left: -247px;
+    left: 50%;
+    text-align: center;
+}
+.image1>span {
+    position: absolute;
+    bottom: 144px;
+    left: 50%;
+    width: 450px;
+    margin-left: -207px;
+    font-size: 28px;
+    height: 100px;
+}
+.image2>div {
+    position: absolute;
+    bottom: 62px;
+    left: 0px;
+    font-size: 30px;
+    width: 500px;
+    height: 500px;
+}
+.image2>a {
+    position: absolute;
+    bottom: 28px;
+    right: 40px;
+    font-size: 19px;
+    color: mediumvioletred;
+}
+.pro1 {
+    position: absolute;
+    bottom: 265px;
+    left: 61px;
+    width: 500px;
+    height: 100px;
+}
+.pro2 {
+    position: absolute;
+    bottom: 113px;
+    left: 61px;
+    width: 500px;
+    height: 100px;
+}
+.pro3 {
+    position: absolute;
+    bottom: 0px;
+    left: 61px;
+    width: 500px;
+    height: 100px;
+}
+.pic5 {
+    height: 492px;
+    width: 600px;
+    left: 5203px;
+    position: absolute;
+    bottom: 0px;
+}
+.box1 {
+    height: 164px;
+    width: 164px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    background: url("../imgs/box.png");
+}
+.box2 {
+    height: 164px;
+    width: 164px;
+    left: 164px;
+    bottom: 0px;
+    position: absolute;
+    background: url("../imgs/box.png");
+}
+.box3 {
+    height: 164px;
+    width: 164px;
+    left: 328px;
+    bottom: 0px;
+    position: absolute;
+    background: url("../imgs/box.png");
+}
+.box4 {
+    height: 164px;
+    width: 164px;
+    left: 164px;
+    bottom: 164px;
+    position: absolute;
+    background: url("../imgs/box.png");
+}
